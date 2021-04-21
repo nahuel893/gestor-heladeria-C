@@ -10,6 +10,7 @@ tcad ctrsn_real   = "leon2020";
 int main(){
 	short op;
 	tlistaPedidos pedidos;
+	valida_usuario();
 	ini_listPedidos( &pedidos );
 
 	do{
@@ -37,7 +38,7 @@ short menu(){
 	return op;
 }
 
-/*
+
 void vacia_cadena( tcad cadena ){
 	int i = 0;
 	
@@ -64,4 +65,3 @@ void valida_usuario(){
 		
 	}
 }
-*/
