@@ -1,0 +1,7 @@
+1kg Helado 340
+1/2kg Helado 180
+1/4kg Helado 100
+cucurucho simple 5
+cucurucho doble 10
+cucuruchon 20
+
