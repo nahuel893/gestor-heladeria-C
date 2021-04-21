@@ -22,7 +22,6 @@ int main(){
 			case 3: modifica_pedido( &pedidos ); 
 					break; 
 		}
-
 	}while( op != 0 );
 	return 0;
 }
@@ -37,8 +36,6 @@ short menu(){
 	CLS
 	return op;
 }
-
-
 void vacia_cadena( tcad cadena ){
 	int i = 0;
 	

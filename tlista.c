@@ -149,7 +149,7 @@ void elimina_lista( tlista *l ){
 	muestra_listaIndices( *l );
 	printf("Ingrese el numero del producto que desea eliminar\n");
 	scanf("%d", &p); 
-	if( p > 0 && p < l->tam_lista )
+	if( p > 0 && p <= l->tam_lista )
 		eliminar( l->vector_productos, &l->tam_lista, p );
 	else
 		printf("Valor ingresado incorrecto\n");
